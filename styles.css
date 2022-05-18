@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+ }
+
+.landing-page{
+    background-image: url(/dark-black-technology-background-vector.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+ p{ 
+     color: blue;
+ }
+
+ .tech-logo{
+    position: absolute;
+    top: 100px;
+    left: 580px;
+     height: 800px;
+     width: 800px;
+     animation-name: example;
+     animation-duration: 3s;
+ }
+
+ @keyframes example {
+    0%   {top: 800px;}
+    100% {left: 580px; top:100px;}
+  }
+ .my-img{
+     position: absolute;
+     top: 295px;
+     left: 820px;
+     height: 380px;
+     width: 380px;
+     animation-name: e2;
+     animation-duration: 3s;
+ }
+
+ @keyframes e2 {
+    0%   {top: -1000px;}
+    100% {top: 295px; left: 820px;}
+  }
+
+ .intro-text{
+     position: absolute;
+     top: 0;
+     letter-spacing: 3px;
+     color: white;
+     font-size: x-large;
+     font-family:'Courier New', Courier, monospace;
+     text-align: center;
+     width: 20%;
+     top: 470px;
+     left: 1280px;
+ }
+
+ .bold-text{
+    font-weight: bolder;
+ }
+
